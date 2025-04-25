@@ -41,7 +41,11 @@ xxxxxxxxxxxx        my_bridge           bridge
 xxxxxxxxxxxx        none                null
 xxxxxxxxxxxx        host                host
 ```
+Command to get into the container, where "login" is container name
+```
+docker exec -it login /bin/bash
 
+```
 This new network can be attached to the containers, when you run these containers.
 
 ```
